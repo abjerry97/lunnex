@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #868686 !important; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit !important;
+}
+/* .navbar-fixed {
+  position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} */
+.sticky-top-gap {
+  top: 6rem !important;
+}
+.bg-gray {
+  background-color: #ECECEC;
+}
+
+:focus {
+  outline:none !important;
+}
+.bg-peach {
+ background-color:  #ECDFCE;
+}
+
+.bg-offWhite {
+  background-color: #BFB7C4;
+
+}
+.bg-bluegreen {
+  background-color: #74E1E1;
+
+} 
+.bg-wine {
+  background-color: #F592A4;
+
+} 
+ 

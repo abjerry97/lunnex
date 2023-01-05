@@ -1,0 +1,14 @@
+.footer-sec{
+    background-color: #26264C !important;
+    color: #FFFFFF;
+} 
+.footer-sec a {
+    text-decoration: none;
+}
+.footer-sec ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-sec li {
+    list-style: none;
+}

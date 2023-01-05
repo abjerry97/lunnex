@@ -1,0 +1,19 @@
+.vert .featured-product-card {
+    min-height: 40rem;
+}
+.horz .featured-product-card {
+    height: 20rem;
+}
+
+.featured-product-card {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    border-radius: 24px !important;
+    overflow: hidden;
+}
+
+.product-card img {
+    max-width: 9rem;
+    max-height: 7rem;
+}
