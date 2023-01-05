@@ -9,12 +9,12 @@ function FeaturedProductCategoryItemWrapper() {
   return (
     <div className="row row-cols-1 row-cols-md-2 g-lg-5 gy-5 py-3">
       <Col className="row flex-column gy-4">
-        {emptyProduct.slice(0, 2).map((product, index) => {
+        {emptyProduct.slice(0, 1).map((product, index) => {
           return <FeaturedProductCard className="horz" productId={product?._id} key={index} />;
         })}
       </Col>
       <Col className="row  gy-4 flex-row">
-        {emptyProduct.slice(0, 2).map((product, index) => {
+        {emptyProduct.slice(0, 1).map((product, index) => {
           return <FeaturedProductCard className="vert" productId={product?._id} key={index} />;
         })}
       </Col>
