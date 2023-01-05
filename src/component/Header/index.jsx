@@ -20,7 +20,7 @@ function Header() {
 
       <div className="col-3 mb-4 mb-md-0">
         <ul className=" list-unstyled d-flex justify-content-end gap-4 gap-md-5 align-items-center m-0">
-          <li className=" d-none d-md-block">
+          <li className=" d-none d-md-block ">
             <svg
               width="20"
               height="20"
@@ -50,7 +50,7 @@ function Header() {
             </svg>
           </li>
 
-        <li className="hero-img">
+        <li className="hero-img mx-2">
           <img src="/images/hero-img.png" alt="" />
           
           </li>    
