@@ -6,8 +6,8 @@ function FeaturedProductCategory(props) {
   const {name} = props.category || {}
   return (
     <div className="mt-5">
-      <div className="d-flex justify-content-between">
-        <h4>Featured products</h4> <span>See all</span>
+      <div className="d-flex justify-content-between product-category-item-header">
+        <h4> <a href=""> Featured products</a></h4> <span><a href="">See all</a></span>
       </div> 
 
       <FeaturedProductCategoryItemWrapper categoryName = {name}/>

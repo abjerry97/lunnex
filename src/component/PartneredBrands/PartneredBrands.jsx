@@ -2,8 +2,8 @@ import React from "react";  import "./PartneredBrands.css";
 function PartneredBrands(props) {
   const {name} = props.category || {}
   return (
-    <div className="mt-5">
-      <div className="d-flex justify-content-center">
+    <div className="mt-3 mt-md-5">
+      <div className="d-flex justify-content-center partnered-brand-header">
         <h4>Partnered Brands</h4>  
       </div> 
     <div className="row">

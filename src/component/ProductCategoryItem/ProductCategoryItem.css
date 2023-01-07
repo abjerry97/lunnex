@@ -1,1 +1,14 @@
- 
+.product-category-item-header h4 {
+    color: #26264C;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+.product-category-item-header span {
+    color:  #C4C4C4; 
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,5 +1,10 @@
  
 .subscride-btn {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px; 
+    color: #FFFFFF;
     background: #FF3365;
     border-radius: 12px;
 }

@@ -1,6 +1,12 @@
 .intro-card-grid {
     display: grid;
 }
+.intro-text {
+ font-family: 'Helvetica'; 
+font-weight: 700;
+font-size: 30px; 
+color: #FFFFFF;
+}
 .bg-wine {
 background-color: #FF3365;
 }
@@ -73,4 +79,8 @@ background-color: #FF3365;
     .intro-card {
         height: 140px; 
     }
+    .intro-text { 
+       font-size: 20px; 
+       line-height: 25px; 
+       }
   }

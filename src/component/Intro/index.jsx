@@ -39,7 +39,7 @@ function Intro() {
   const ImageSliderWithText = (props) => {
     return (
       <div
-        className=" row m-0 p-0 mt-30 slideshowSlider col-12 w-100 bg-wine br-24 overflow-hidden intro-card"
+        className=" row m-0 p-0 mt-30 slideshowSlider col-12 bg-wine br-24 overflow-hidden intro-card"
         // style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         <div className="col-7 col-md-6 position-relative p-0 m-0">
@@ -48,7 +48,7 @@ function Intro() {
             alt="shop more" />
         </div>
         <div className="col-5 col-md-6 p-0 m-0">
-          <h4 className="text-white mt-4 p-2">{props.text}</h4>
+          <h4 className="text-white mt-4 p-2 intro-text">{props.text}</h4>
         </div>
       </div>
     );
@@ -56,7 +56,7 @@ function Intro() {
   const ImageSliderWithOutText = (props) => {
     return (
       <div
-        className=" row m-0 p-0 mt-30 slideshowSlider col-12 w-100 bg-wine br-24 overflow-hidden intro-card"
+        className=" row m-0 p-0 mt-30 slideshowSlider col-12 bg-wine br-24 overflow-hidden intro-card"
         // style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {/* <img src={props.url} height="100%" width="100%" alt="shop more" />  */}
@@ -66,7 +66,7 @@ function Intro() {
           height="100%"
           // width="100%"
           alt="shop more"
-          className=" w-100 p-0 m-0 "
+          className=" p-0 m-0 "
         />
       </div>
     );

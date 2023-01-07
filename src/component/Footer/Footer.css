@@ -1,14 +1,42 @@
-.footer-sec{
+.footer-sec {
     background-color: #26264C !important;
     color: #FFFFFF;
-} 
+}
+
 .footer-sec a {
     text-decoration: none;
 }
+
 .footer-sec ul {
     padding: 0;
     margin: 0;
 }
+
 .footer-sec li {
     list-style: none;
+}
+
+.footer-sec p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-sec h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.footer-sec li{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
 }

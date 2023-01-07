@@ -13,7 +13,7 @@ function ProductCategories() {
       })}
 
       <div className="load-more d-flex justify-content-center align-items-center my-4">
-        <div className="">
+        <div className="load-more-category">
       Load more categories</div>
       </div>
     </>

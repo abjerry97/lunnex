@@ -1,65 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* background-color: #868686 !important; */
-  
-}
+  /* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;600;700&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap'); 
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #868686 !important; */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-a {
-  color: inherit !important;
-}
-/* .navbar-fixed {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    font: inherit;
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  a:hover {
+    text-decoration: underline !important;
+  }
+
+  /* .navbar-fixed {
   position: absolute !important;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 } */
-.sticky-top-gap {
-  top: 6rem !important;
-}
-.bg-gray {
-  background-color: #ECECEC;
-}
+  .sticky-top-gap {
+    top: 6rem !important;
+  }
 
-:focus {
-  outline:none !important;
-}
-.bg-peach {
- background-color:  #ECDFCE;
-}
+  .bg-gray {
+    background-color: #ECECEC;
+  }
 
-.bg-offWhite {
-  background-color: #BFB7C4;
+  :focus {
+    outline: none !important;
+  }
 
-}
-.bg-bluegreen {
-  background-color: #74E1E1;
+  .bg-peach {
+    background-color: #ECDFCE;
+  }
 
-} 
-.bg-wine {
-  background-color: #F592A4;
+  .bg-offWhite {
+    background-color: #BFB7C4;
 
-} 
- input::placeholder {
-  font-family: 'Helvetica Neue' ;
-  color: #B7B4B4;
-  font-weight: 700;
-font-size: 14px;
+  }
 
- }
+  .bg-bluegreen {
+    background-color: #74E1E1;
+
+  }
+
+  .bg-wine {
+    background-color: #F592A4;
+
+  }
+
+  input::placeholder {
+    font-family: 'Helvetica Neue';
+    color: #B7B4B4;
+    font-weight: 700;
+    font-size: 14px;
+
+  }

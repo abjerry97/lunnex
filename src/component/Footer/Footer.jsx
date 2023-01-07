@@ -33,7 +33,7 @@ function Footer(props) {
      </div>
      <div className="col-12 col-md-4">
        <h3>ABOUT LUNNEX</h3>
-       <div className=" d-block d-md-flex justify-content-between">
+       <div className=" d-block d-md-flex justify-content-between mb-3">
        <ul>
          <li><a href="#">About us</a></li>
          <li><a href="#">Contact us</a></li>

@@ -20,7 +20,7 @@ function ProductCard(props) {
             <div className="pt-3 px-2 px-md-3 footer row m-0">
                 <div className="col-7 product-card-text p-0">
                     <h5 className="m-0"> {product?.name}</h5>
-                    <p className="m-0">{product?.newPrice}</p>
+                    <p className="m-0 mt-1">{product?.newPrice}</p>
                     <p className="m-0">{product?.price}</p>
                 </div>
                 <div className=" col-5 p-0">
