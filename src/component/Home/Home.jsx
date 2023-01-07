@@ -4,9 +4,12 @@ import Intro from "../Intro";
 import ProductCategories from "../ProductCategories/ProductCategories";
 import FeaturedProductCategory from "../FeaturedProductCategory/FeaturedProductCategory";
 import PartneredBrands from "../PartneredBrands/PartneredBrands";
+import { useOutsideAlerter } from "../../utils/utils";
 
 function Home(props) {
-  const { sidebarActive ,setsidebarActive } = props; 
+  const { sidebarActive, setsidebarActive } = props;
+  const wrapperRef = React.useRef(null);
+  useOutsideAlerter(wrapperRef, setsidebarActive);
   return (
     <div className="container-fluid row  m-0 py-2 mt-2 mt-md-4 ">
       <div
@@ -14,7 +17,16 @@ function Home(props) {
           sidebarActive ? "  sidebar-active  " : "d-none"
         }`}
       >
-        <Sidebar setsidebarActive= {setsidebarActive} />
+        <div
+          className="close-btn position-absolute top-0 d-block d-md-none "
+          onClick={() => {
+            setsidebarActive(false);
+          }}
+          ref={wrapperRef}
+        >
+          close
+        </div>
+        <Sidebar setsidebarActive={setsidebarActive} />
       </div>
 
       <div className="col-12 col-md-10 p-0 ">
