@@ -46,7 +46,7 @@ function Intro() {
           <img src={props.url} height="100%" width="100%" alt="shop more" />
         </div>
         <div className="col-5 col-md-6 p-0 m-0">
-          <h4 className="text-white mt-4">{props.text}</h4>
+          <h4 className="text-white mt-4 p-2">{props.text}</h4>
         </div>
       </div>
     );
@@ -70,7 +70,7 @@ function Intro() {
     );
   };
   return (
-    <div className="slideshow row justify-content-between gap-3 text-center overflow-hidden ">
+    <div className="slideshow row justify-content-between gap-0 gap-md-4 text-center overflow-hidden ">
       <div
         className="col-12     position-relative  p-0 d-flex "
         style={{ transform: `translate3d( ${-index * 100}%,0, 0)` }}

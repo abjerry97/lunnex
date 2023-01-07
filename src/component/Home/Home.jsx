@@ -7,7 +7,7 @@ import PartneredBrands from "../PartneredBrands/PartneredBrands";
 
 function Home() {
   return (
-    <div className="container-fluid row  m-0 py-2 mt-4 ">
+    <div className="container-fluid row  m-0 py-2 mt-2 mt-md-4 ">
       
       <div className="col-2 p-0 d-none d-md-block position-relative">
         <Sidebar />
