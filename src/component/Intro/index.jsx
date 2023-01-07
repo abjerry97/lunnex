@@ -43,7 +43,9 @@ function Intro() {
         // style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         <div className="col-7 col-md-6 position-relative p-0 m-0">
-          <img src={props.url} height="100%" width="100%" alt="shop more" />
+          <img src={props.url} height="100%"
+           width="100%"
+            alt="shop more" />
         </div>
         <div className="col-5 col-md-6 p-0 m-0">
           <h4 className="text-white mt-4 p-2">{props.text}</h4>
@@ -62,7 +64,7 @@ function Intro() {
         <img
           src={props.url}
           height="100%"
-          width="100%"
+          // width="100%"
           alt="shop more"
           className=" w-100 p-0 m-0 "
         />

@@ -24,7 +24,7 @@ function ProductCard(props) {
                     <p className="m-0">{product?.price}</p>
                 </div>
                 <div className=" col-5 p-0">
-                  <div className="product-card-btn">Add to cart</div>  </div>
+                  <div className="product-card-btn m-auto">Add to cart</div>  </div>
             </div>
           </div>
         </Col>

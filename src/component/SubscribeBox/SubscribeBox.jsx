@@ -5,7 +5,7 @@ import SubscribeIcon from "./subscribeIcon.svg"
 function SubscribeBox(props) {
   return (
     <div className="subscribe-box d-block d-md-flex gap-4 w-100">
-      <div className=" bg-white d-flex justify-content-center align-items-center subscride-email-wrapper py-2 px-4 gap-3 w-100">
+      <div className=" bg-white d-flex justify-content-center align-items-center subscride-email-wrapper py-2 px-2 px-md-4 gap-1 gap-md-3 w-100">
         <img src={SubscribeIcon} alt="" srcset="" />
         <input
           type="email"
