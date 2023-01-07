@@ -13,3 +13,24 @@ color: #26264C;
     font-size: 16px; 
     color: #26264C;
 } */
+
+.page-sidebar {
+    position: relative !important;
+    /* display: block; */
+}
+
+@media only screen and (max-width: 770px) {
+
+    .sidebar-active {
+        position: fixed !important;
+        right: 0; 
+        top: 0 !important;
+        display: block;
+        background-color: #ffffff !important;
+        z-index: 1999 !important;
+        opacity: 1 !important;
+        width: 70% !important;
+        min-height: 100vh !important;
+    }
+    
+}

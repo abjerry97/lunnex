@@ -9,7 +9,7 @@ function Intro() {
       text: "Shop for MORE with less on Lunnex",
     },
     { url: "/images/sale-intro.png", text: null },
-    { url: "/images/sale-intro.png", text: null },
+    { url: "/images/comfort.png", text: "Shopping from the comfort of your home", overlay: true },
   ];
 
   const [index, setIndex] = React.useState(0);
@@ -34,7 +34,7 @@ function Intro() {
     return () => {
       resetTimeout();
     };
-  }, [index]);
+  }, [ index]);
 
   const ImageSliderWithText = (props) => {
     return (
@@ -71,17 +71,39 @@ function Intro() {
       </div>
     );
   };
+  const ImageSliderWithTextOverlay = (props) => {
+    return (
+      <div
+        className=" row m-0 p-0 mt-30 slideshowSlider col-12 bg-wine br-24 overflow-hidden intro-card position-relative"
+        // style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+      >
+        {/* <img src={props.url} height="100%" width="100%" alt="shop more" />  */}
+
+        <img
+          src={props.url}
+          height="100%"
+          // width="100%"
+          alt="shop more"
+          className=" p-0 m-0 "
+        />
+  <div className="position-absolute intro-overlay-bg  m-auto text-white top-0 bottom-0"> <p className="   intro-overlay-text px-5 ">{props.text}</p>
+    </div>
+         </div>
+    );
+  };
   return (
     <div className="slideshow row justify-content-between gap-0 gap-md-4 text-center overflow-hidden ">
       <div
         className="col-12     position-relative  p-0 d-flex "
         style={{ transform: `translate3d( ${-index * 100}%,0, 0)` }}
       >
-        {images.map(({ url, text }, index) => {
-          return text ? (
-            <ImageSliderWithText text={text} url={url} />
-          ) : (
+        {images.map(({ url, text ,overlay}, index) => {
+          return !text ? (
             <ImageSliderWithOutText text={text} url={url} />
+          ):  overlay ? (
+            <ImageSliderWithTextOverlay text={text} url={url} />
+          ): (
+            <ImageSliderWithText text={text} url={url} />
           );
         })}
 

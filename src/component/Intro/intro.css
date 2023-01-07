@@ -1,27 +1,51 @@
 .intro-card-grid {
     display: grid;
 }
+
 .intro-text {
- font-family: 'Helvetica'; 
-font-weight: 700;
-font-size: 30px; 
-color: #FFFFFF;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
 }
+.intro-overlay-bg {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(38, 37, 37, 0.61) !important;
+}
+.intro-overlay-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    height: fit-content;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .bg-wine {
-background-color: #FF3365;
+    background-color: #FF3365;
 }
+
 .intro-card {
     height: 170px;
     border-radius: 24px !important;
-    box-shadow: 0 .2rem .4rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, .15) !important;
 }
+
 .br-24 {
-    
+
     border-radius: 24px !important;
 }
+
 .mt-30 {
-    margin-top:30px !important;
+    margin-top: 30px !important;
 }
+
 .rounded-24 {
     border-radius: 24px !important;
 }
@@ -69,7 +93,7 @@ background-color: #FF3365;
 
 .slideshowDot.active {
     background-color: #FF3365;
-    
+
 }
 
 
@@ -77,10 +101,11 @@ background-color: #FF3365;
 @media only screen and (max-width: 600px) {
 
     .intro-card {
-        height: 140px; 
+        height: 140px;
     }
-    .intro-text { 
-       font-size: 20px; 
-       line-height: 25px; 
-       }
-  }
+
+    .intro-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

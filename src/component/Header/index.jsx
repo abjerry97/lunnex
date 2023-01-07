@@ -1,7 +1,8 @@
 import React from "react";
 import SearchBox from "../SearchBox";
 
-function Header() {
+function Header(props) {
+  const  {setsidebarActive} = props
   return (
     <div className="container-fluid row align-items-center justify-content-between m-0 py-2 sticky-top bg-white">
       <div className="col-4 col-md-2 mb-4 mb-md-0  p-0">
@@ -54,7 +55,7 @@ function Header() {
           <img src="/images/hero-img.png" alt="" />
           
           </li>    
-          <li className="d-block d-md-none">
+          <li className="d-block d-md-none"  onClick={ ()=>{setsidebarActive(true)} }>
           <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z" fill="black"/>
 </svg>
