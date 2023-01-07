@@ -13,7 +13,7 @@ function ProductCard(props) {
   } 
   return (  
     <Col>
-          <div className=" shadow  product-card position-relative">
+          <div className="    product-card position-relative p-0">
           <div className={` ${productCategoryColor[product?.category] || "bg-gray"}  d-flex justify-content-center align-items-center`}>
               <img src={product?.image} alt="imani-bahati" />
             </div>

@@ -4,7 +4,8 @@
     overflow: hidden;
     height: 100%;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 70% minmax(5rem, 10rem);
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,.15)!important;
 }
 
 .product-card img {
@@ -30,13 +31,13 @@
 
 @media only screen and (max-width: 600px) {
     .product-card-text h5 {
-        font-size: 14px;
-    }
-    .product-card-text p {
         font-size: 10px;
     }
+    .product-card-text p {
+        font-size: 9px;
+    }
     .product-card-btn {
-        font-size: 8px;
+        font-size: 7px;
 
     }
   }

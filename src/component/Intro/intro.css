@@ -7,7 +7,11 @@ background-color: #FF3365;
 .intro-card {
     height: 170px;
     border-radius: 24px !important;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .2rem .4rem rgba(0,0,0,.15)!important;
+}
+.br-24 {
+    
+    border-radius: 24px !important;
 }
 .mt-30 {
     margin-top:30px !important;
